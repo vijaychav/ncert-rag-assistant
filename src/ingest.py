@@ -17,7 +17,7 @@ def extract_pages(pdf_path):
 def clean_text(text):
     """Light cleanup only. Don't aim for perfection.
 
-    TODO:
+    
     - Join lines that were broken mid-sentence
     - Remove obvious page headers/footers you notice in the output
     - Collapse repeated whitespace
@@ -40,7 +40,7 @@ def split_into_passages(pages, chapter, target_words=150):
     Return a list of dicts with keys: id, chapter, page, text.
     Use ids like f"ch{chapter}_p{page}_{n}".
 
-    TODO: implement.
+    
     """
     out = []
     for page, page_text in pages:
