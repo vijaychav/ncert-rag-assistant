@@ -1,0 +1,14 @@
+# Source data (download separately, see README)
+data/raw/*.pdf
+data/passages.json
+data/embeddings*.npy
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
